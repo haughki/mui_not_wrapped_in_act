@@ -20,7 +20,12 @@ export default function MuiTableWithActProblem() {
       <DataGrid
         rows={rows}
         columns={columns}
-        autosizeOnMount
+        // autosizeOnMount
+        // autosizeOptions={{
+        //   columns: ['col1', 'col2'],
+        //   includeOutliers: true,
+        //   includeHeaders: false,
+        // }}
       />
     </div>
   )
